@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <center>
+        <div class="signature-container">
+            <label for="background-color-picker">Background Color</label> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+            <label for="text-color-picker">Signature Color</label><br>
+            <input type="color" id="background-color-picker"> &nbsp;  &nbsp; &nbsp;
+            
+            <input type="color" id="text-color-picker">
+            <canvas id="signature-pad" class="signature-pad" width="600px" height="300px"></canvas>
+            <div>
+                <button id="clear-button">Clear</button>
+                <button id="download-button">Download JPG</button>
+                <button id="download-no-background-button">Download PNG</button>
+            </div>
+        </div>
+    </center>
+    
+   
+    <script src="script.js"></script>
+</body>
+</html>

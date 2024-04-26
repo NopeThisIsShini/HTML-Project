@@ -1,0 +1,70 @@
+html{
+    background-color: #ffffff;
+}
+.signature-container {
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.signature-pad {
+    border: 1px solid #000;
+    cursor: crosshair;
+}
+
+#clear-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #c80c0c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#download-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #19b856;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#background-color-picker{
+    height:26px;
+   width: 160px;
+   margin-bottom: 10px;
+   border-radius: 4px;
+   background-color: #e3eadd;
+   border: 1px rgb(63, 61, 59) solid;
+   text-align: center;
+
+   
+}
+#text-color-picker{
+    height:26px;
+   width: 160px;
+   margin-bottom: 10px;
+   border-radius: 4px;
+   background-color: #e3eadd;
+   border: 1px rgb(63, 61, 59) solid;
+   margin-top: 4px;
+   
+
+
+}
+
+#download-no-background-button{
+    margin-top: 20px;
+padding: 10px 20px;
+background-color: #2d2e84;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+
+}
+
+
